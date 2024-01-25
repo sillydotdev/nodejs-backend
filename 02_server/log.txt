@@ -1,9 +1,8 @@
-1706144754392: /about New request received
-1706144770793: /about New request received
-1706144792927: /about New request received
-1706144854353: /about New request received
-1706144864718: /about?myname=kamran New request received
-1706144864738: /favicon.ico New request received
-1706144941568: /about?myname=kamran New request received
-1706144976131: /about?myname=kamran New request received
-1706147217269: /search?search_query=tic+tac+toe New request received
+
+1706148297625: GET / New request received
+1706148338105: GET / New request received
+1706148409969: GET /signup New request received
+1706148433677: GET / New request received
+1706148446830: GET / New request received
+1706148456475: GET /signup New request received
+1706148580504: GET /signup New request received

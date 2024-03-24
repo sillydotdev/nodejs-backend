@@ -4,9 +4,9 @@
 
 It has 3 parts:
 
-Ist part -> 4
-2nd part -> 19
-3rd part -> 1
+- Ist part -> 4
+- 2nd part -> 19
+- 3rd part -> 1
 
 ### 3rd part -> 1 --- (Minor Fixes)
 

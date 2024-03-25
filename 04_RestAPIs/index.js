@@ -4,6 +4,8 @@ const users = require("./MOCK_DATA.json");
 const app = express();
 const PORT = 8000;
 
+// USING "https://mockaroo.com/" FOR MOCK DATA TO KEARN RestApiS
+
 //Routes
 //GET request
 app.get("/users", (req, res) => {

@@ -38,6 +38,8 @@ app.get("/users", (req, res) => {
 
 // render json if it is to be used by front end
 app.get("/api/users", (req, res) => {
+  res.setHeader("X-MyName", "Kamran"); // custom header - always use "X" with custom headers, it is a good pracrtice
+  // console.log(req.headers);  // prints request headers
   return res.json(users);
 });
 

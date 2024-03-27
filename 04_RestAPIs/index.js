@@ -9,7 +9,7 @@ app.use(express.json());
 
 const PORT = 8000;
 
-// middlewares
+// Middlewares
 app.use(express.urlencoded({ extended: false }));
 
 function userExists(req, res, next) {

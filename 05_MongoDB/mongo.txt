@@ -1,0 +1,7 @@
+Schema - structure of the data
+
+    - SCHEMA - Model
+
+    Using schema we create a model
+
+    Then we do CRUD operations on model

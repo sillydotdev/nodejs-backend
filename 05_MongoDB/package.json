@@ -1,5 +1,5 @@
 {
-  "name": "04_restapis",
+  "name": "05_mongodb",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
-    "express": "^4.19.1",
+    "express": "^4.19.2",
+    "mongoose": "^8.2.3",
     "nodemon": "^3.1.0"
   }
 }

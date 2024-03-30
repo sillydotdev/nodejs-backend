@@ -13,7 +13,10 @@ async function handleGenerateNewShortURL(req, res) {
     redirectURL: body.url,
     visitHistory: [],
   });
-  res.json({ id: shortID });
+  res.render("home", {
+    id: shortID
+  })
+  // res.json({ id: shortID });
 }
 
 // Redirect to the url using shortId
@@ -31,6 +34,9 @@ async function handleRedirectToURL(req, res) {
       },
     },
   );
+  if (!entry || !entry.redirectURL) {
+    return res.status(404).send("URL not found");
+  }
   return res.redirect(entry.redirectURL);
 }
 

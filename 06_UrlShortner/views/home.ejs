@@ -20,5 +20,27 @@
         <button type="submit">Generate</button>
     </form>
 </div>
+
+<div>
+    <% if (locals.urls) {%>
+        <table>
+            <thead>
+            <th>S.No</th>
+            <th>Redirect URL</th>
+            <th>Visits</th>
+            </thead>
+            <tbody>
+            <%urls.forEach((url, index) => {%>
+                <tr>
+                    <td><%= index + 1 %></td>
+                    <td><%= url.shortId %></td>
+                    <td><%= url.redirectURL %></td>
+                    <td><%= url.visitHistory.length %></td>
+                </tr>
+            <%})%>
+            </tbody>
+        </table>
+    <%}%>
+</div>
 </body>
 </html>
